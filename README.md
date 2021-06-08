@@ -1,5 +1,5 @@
 # Microservices-POC
-It is repository built for learning purpose. 
+Microservice architecture is combination of multiple service that talk to each other. 
 
 # Circuit Breaker Pattern
 The circuit breaker pattern allows you to build a fault tolerant and resilient system that can survive gracefully when key services are either unavailable or have high latency.
