@@ -9,9 +9,27 @@ The circuit breaker pattern allows you to build a fault tolerant and resilient s
     * We can return response by calling to similar service in some cases. <br>
     
 # Service Mesh
+Service Mesh is one more component which actually runs along with every micro-service deployment and helps to do all following things. <br>
+* Load balancing (service level)
+* Service Discovery
+* Metrics
+* Retries
+* Circuit Breaking
+* Timeout
+This is implemeted using side-car pattern. It also implements proxy design pattern. Service-Mesh contains following two components. <br>
+-> Control Plane - All configuration regarding service-mesh is controlled by this, we also call it control tower. <br>
+-> Data Plane - Side-car in all microservices. <br>
 
-
-
+# Deployment Pattern
+* Scalability and throughput
+   -> Multiple services per VM <br>
+   -> Service per VM/Container <br>
+   -> Serverless <br>
+* Reliable and available
+* Isolation
+* Resource limit
+* Monitor
+* Cost-effective
 
 
 # Reference
