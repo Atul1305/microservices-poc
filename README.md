@@ -21,7 +21,7 @@ This is implemeted using side-car pattern. It also implements proxy design patte
 -> Data Plane - Side-car in all microservices. <br>
 
 # Deployment Pattern
-* Scalability and throughput
+* Scalability and throughput <br>
    -> Multiple services per VM <br>
    -> Service per VM/Container <br>
    -> Serverless <br>
