@@ -33,7 +33,7 @@ This is implemeted using side-car pattern. It also implements proxy design patte
 
 
 # Reference
-* Doc -> https://microservices.io/
-* Design Patterns -> https://blog.bitsrc.io/my-favorite-microservice-design-patterns-for-node-js-fe048c635d83
-* Circuit Breaker Pattern -> https://www.youtube.com/watch?v=5XeVoHtFGo0
+* [Doc](https://microservices.io/)
+* [Design Patterns](https://blog.bitsrc.io/my-favorite-microservice-design-patterns-for-node-js-fe048c635d83)
+* [Circuit Breaker Pattern](https://www.youtube.com/watch?v=5XeVoHtFGo0)
 * [Debugging challenges](https://thenewstack.io/tracing-why-logs-arent-enough-to-debug-your-microservices/)
