@@ -1,7 +1,13 @@
-# Microservices-POC
+# Microservices
+
 Microservice architecture is combination of multiple service that talk to each other. 
 
+# Microservices Orchestration
+
+Microservices orchestration is the process of managing and coordinating the interactions between multiple microservices to achieve a specific business goal.
+
 # Circuit Breaker Pattern
+
 The circuit breaker pattern allows you to build a fault tolerant and resilient system that can survive gracefully when key services are either unavailable or have high latency.
 -> Solution <br>
     * It cache the response and return cached response at the time of service on which it depends on goes down. <br>
