@@ -37,4 +37,5 @@ This is implemeted using side-car pattern. It also implements proxy design patte
 * [Design Patterns](https://blog.bitsrc.io/my-favorite-microservice-design-patterns-for-node-js-fe048c635d83)
 * [Circuit Breaker Pattern](https://www.youtube.com/watch?v=5XeVoHtFGo0)
 * [Debugging challenges](https://thenewstack.io/tracing-why-logs-arent-enough-to-debug-your-microservices/): Distributed tracing is the answer.
+*[Microservices Orchestration](https://blog.getambassador.io/microservice-orchestration-best-practices-f32314dd6a12)
 * [50 Microservices Interview Questions](https://medium.com/javarevisited/50-microservices-interview-questions-for-java-programmers-70a4a68c4349)
