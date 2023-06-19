@@ -45,7 +45,7 @@ Your Choices
 
 **Sagas**
 
-Create Order Saga : Break distribution transaction in set of local transactions as described in below steps.<br>
+Create Order Saga : Break distributed transaction in set of local transactions as described in below steps.<br>
 Steps:<br>
 	1. CreateOrder in order service and mark order in PENDING state.<br>
 	2. Complete PAYMENT on payment service.<br>
@@ -91,7 +91,13 @@ Steps:<br>
 * If it takes longer -> UI displays processing popup.
 * Server can push notifaction to UI.
 	
-
+**Sagas complicate the business logic**
+* Changes are committed by each steps of saga.
+* Other transactions see "inconsistent" data, eg. Order.state=PENDING, more complex logic.
+* Interaction between sagas and other operations.<br>
+	- eg. what does it mean to cancel a PENDING order.
+	- "Interrupt" the create order saga.
+	- Wait for the create order saga to complete?
 
 
 
