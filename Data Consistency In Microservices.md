@@ -45,7 +45,17 @@ Your Choices
 
 **Sagas**
 
-Create Order Saga : Break distributed transaction in set of local transactions as described in below steps.<br>
+Two types
+
+ ```
+Choreography: Distributed decision making.
+				vs
+Orchestration: Centralized decision making.
+```
+
+Create Order Saga :
+
+Break distributed transaction in set of local transactions as described in below steps.<br>
 Steps:<br>
 	1. CreateOrder in order service and mark order in PENDING state.<br>
 	2. Complete PAYMENT on payment service.<br>
@@ -99,6 +109,11 @@ Steps:<br>
 	- "Interrupt" the create order saga.
 	- Wait for the create order saga to complete?
 
+**How to Sequence the Saga Transactions**
+* After completion of transaction Ti "something" must decide what step to execute next.
+* Success : which(ti + 1) - branching
+* Failure: C(i - 1)
+
 
 
 **Books Recommended**
@@ -109,4 +124,4 @@ Steps:<br>
 
 1. [Saga blog on Microservices.com](https://microservices.io/patterns/data/saga.html#:~:text=Example%3A%20Choreography%2Dbased%20saga&text=The%20Order%20Service%20receives%20the,an%20event%20indicating%20the%20outcome)
 
-2. [Youtube - Using sagas to maintain data consistency in a microservice architecture by Chris Richardson](https://www.youtube.com/watch?v=YPbGW3Fnmbc) 26:29
+2. [Youtube - Using sagas to maintain data consistency in a microservice architecture by Chris Richardson](https://www.youtube.com/watch?v=YPbGW3Fnmbc) 31:48
