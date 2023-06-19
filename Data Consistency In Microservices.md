@@ -1,4 +1,4 @@
-Data Consistency in Microservices
+**Data Consistency in Microservices**
 
 Saga Pattern
 Reconciliation
@@ -42,8 +42,11 @@ Your Choices
 3. Sagas, compensate and reconcile
 	- Orchestration
 	- Choreography
-	
-Books Recommended
+
+**Sagas**
+
+
+
+**Books Recommended**
 1. Designing Data Intensive Application
 2. Microservices Patterns
-	
