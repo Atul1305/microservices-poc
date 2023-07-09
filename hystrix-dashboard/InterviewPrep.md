@@ -1,4 +1,5 @@
-**Questions**
+Questions
+===============
 * Explain Microservices Architecture
     - Microservice Architecture is an architectural development style which builds an application as a collection of small autonomous services developed for a business domain.
 
@@ -44,8 +45,8 @@
 
 
 
-**Reference**
+Reference
+==============
 
-[Spring Cloud ](https://spring.io/projects/spring-cloud)
-
-[Top 25 Microservices Interview Questions and Answers - Guru99 However all answers are not correct, better to refere answers in readme.](https://www.guru99.com/microservices-interview-questions.html)
+* [Spring Cloud ](https://spring.io/projects/spring-cloud)
+* [Top 25 Microservices Interview Questions and Answers - Guru99 However all answers are not correct, better to refere answers in readme.](https://www.guru99.com/microservices-interview-questions.html)
