@@ -13,6 +13,8 @@ The circuit breaker pattern allows you to build a fault tolerant and resilient s
     * It cache the response and return cached response at the time of service on which it depends on goes down. <br>
     * It also let the another service to cool off by returning response from cached memory. We can set cool off time for other service, suppose 5 mins. <br>
     * We can return response by calling to similar service in some cases. <br>
+
+
     
 # Service Mesh
 Service Mesh is one more component which actually runs along with every micro-service deployment and helps to do all following things. <br>
@@ -41,7 +43,8 @@ This is implemeted using side-car pattern. It also implements proxy design patte
 # Reference
 * [Doc](https://microservices.io/)
 * [Design Patterns](https://blog.bitsrc.io/my-favorite-microservice-design-patterns-for-node-js-fe048c635d83)
-* [Circuit Breaker Pattern](https://www.youtube.com/watch?v=5XeVoHtFGo0)
-* [Debugging challenges](https://thenewstack.io/tracing-why-logs-arent-enough-to-debug-your-microservices/): Distributed tracing is the answer.
-*[Microservices Orchestration](https://blog.getambassador.io/microservice-orchestration-best-practices-f32314dd6a12)
+* [Circuit Breaker Pattern - Youtube](https://www.youtube.com/watch?v=5XeVoHtFGo0)
+* [What is Circuit Breaker Design Pattern in Microservices? Spring Cloud Netflix Hystrix Example in Java?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
+* [Debugging challenges : Distributed tracing is the answer.](https://thenewstack.io/tracing-why-logs-arent-enough-to-debug-your-microservices/)
+* [Microservices Orchestration](https://blog.getambassador.io/microservice-orchestration-best-practices-f32314dd6a12)
 * [50 Microservices Interview Questions](https://medium.com/javarevisited/50-microservices-interview-questions-for-java-programmers-70a4a68c4349)
