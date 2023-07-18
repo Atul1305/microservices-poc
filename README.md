@@ -41,7 +41,7 @@ This is implemeted using side-car pattern. It also implements proxy design patte
 
 
 # Reference
-* [Doc](https://microservices.io/)
+* [microservices.io](https://microservices.io/)
 * [Design Patterns](https://blog.bitsrc.io/my-favorite-microservice-design-patterns-for-node-js-fe048c635d83)
 * [Circuit Breaker Pattern - Youtube](https://www.youtube.com/watch?v=5XeVoHtFGo0)
 * [What is Circuit Breaker Design Pattern in Microservices? Spring Cloud Netflix Hystrix Example in Java?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
